@@ -34,6 +34,6 @@ export const getEmployee = async (employeeID) => {
 export const getAllEmployee = async () => {
   const response = await axios.get(GET_ALL_EMPLOYEE);
   const dataResponse = response.data;
-  console.log(dataResponse);
+
   return dataResponse;
 };

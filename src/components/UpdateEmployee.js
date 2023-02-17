@@ -32,7 +32,6 @@ const UpdateEmployee = () => {
   if (Object.keys(employee).length === 0) {
     return <div>loading...</div>;
   } else {
-    console.log(msg);
     return (
       <form onSubmit={handleFormSubmit}>
         <div>
